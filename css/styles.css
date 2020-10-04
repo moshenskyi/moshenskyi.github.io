@@ -41,6 +41,8 @@ main {
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
 main > .intro {
@@ -57,15 +59,24 @@ main > .tagline {
 
 .icons-social i {
 	padding: 10px;
+	margin-bottom: 2.5rem;
 }
 
-.devto {
-	margin-bottom: -0.20rem;
+.content-title {
+	font-size: 2rem;
+	margin: 1.2rem 0 0 0;
 }
 
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+.content {
+	font-size: 1.2rem;
+}
+
+.content > li {
+	padding-top: 0.8em;
+	margin: 0;
+}
+
+#articles.content-title {
+	font-size: 2rem;
+	margin: 2rem 0 0 0;
 }
