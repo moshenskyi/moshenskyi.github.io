@@ -1,7 +1,6 @@
 ---
 title: "Building a Sample-Accurate Metronome with AudioTrack in Android"
 layout: single
-classes: wide
 ---
 
 In the world of audio applications, timing precision is crucial. A metronome is a perfect example of an app that requires accurate timing to produce rhythmic beats consistently. In this article, we’ll explore how to build a sample-accurate metronome in Android using `AudioTrack` instead of relying on `delay()`, and how to generate waveforms programmatically.
